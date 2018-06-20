@@ -1,3 +1,10 @@
-ok
-ok
-ok
+git init // inicializa un repositorio
+git add . // añade todos los archivos modificados
+git commit -m "<texto>" //añade un commit a los archivos listos para agregar
+git status //nos retorna un resumen del estado de los archivos del rep
+git log --oneline //muestra el historial de cambios a los archivos
+git checkout <commit-number> <file.name> // regresa un archivo a su estado donde fue realizado el commit
+git reset HEAD <file.name> //regresa el head al ultimo commit realizado
+git checkout -- <file.name> //restablece el ultimo commit a su estado original
+git remote add origin <url> // el repositorio local al repositorio enlinea
+git push -u origin master // sube el contenido del repositorio local al master y nos pide que nos login
