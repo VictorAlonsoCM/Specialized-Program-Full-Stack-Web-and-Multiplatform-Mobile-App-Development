@@ -14,3 +14,10 @@ At the of the week one, We have learned:
 ![](mobile-web-version.png)
 
 ## Note: I'm not including images from the final Assignment 1 but the page is available in the folder Bootstrap4/conFusion
+
+If you want to see the page working in your computer just do this:
+- Install Node JS
+- Open a terminal inside of the folder ***/conFusion/***
+- Type the following comands
+- npm install
+- npm start
