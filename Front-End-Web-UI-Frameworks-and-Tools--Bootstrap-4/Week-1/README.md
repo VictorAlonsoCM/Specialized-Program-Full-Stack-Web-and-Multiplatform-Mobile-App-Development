@@ -1,5 +1,5 @@
 # Week one:
-At the of the week one, We have learned:
+At the end of the week one, We have learned:
 - What is a Full-Stack Web Developer
 - Setting up Our Development Environment: Git and Node
 - Control version using Github
