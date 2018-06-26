@@ -13,7 +13,8 @@ At the end of the week two, We have learned:
 - How to create a responsive and collapse navbar
 - Toggler navbar
 - Usage and implementation of some Javascript clases in Bootstrap
-- Usage of breadcrumb Bootstrap's class
+- Usage of Bootstrap's  breadcrumb class
+- Font-awesome icons and Bootstrap-social icons
 
 
 
