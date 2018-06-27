@@ -15,6 +15,9 @@ At the end of the week two, We have learned:
 - Usage and implementation of some Javascript clases in Bootstrap
 - Usage of Bootstrap's  breadcrumb class
 - Font-awesome icons and Bootstrap-social icons
+- Create and style buttons on a web page using Bootstrap button classes
+- Create and style forms on a web page using Bootstrap form classes
+- Use a Button Group to group together related buttons
 
 
 
