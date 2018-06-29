@@ -19,11 +19,6 @@ At the end of the week two, We have learned:
 # Mobile web page edition
 ![](Mobile-web-version.png)
 
-[comment]: #                    (I mages Side by Side)
-[comment]: #  (           Home            |  Other part of the page)
-[comment]: #  (:-------------------------:|:-------------------------:)
-[comment]: #  (![](https://...Ocean.png)  |  ![](https://...Dark.png))
-
 ### If you want to see the page working in your computer just do this:
 - Install Node JS
 - Open a terminal inside of the folder ***/conFusion/***
