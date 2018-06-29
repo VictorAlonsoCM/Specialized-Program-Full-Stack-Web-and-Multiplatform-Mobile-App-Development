@@ -19,6 +19,7 @@ At the end of the week two, We have learned:
 - Create and style forms on a web page using Bootstrap form classes
 - Use a Button Group to group together related buttons
 - Usage of Tables and Cards
+- Images and Media: Objectives and Outcomes
 
 
 
