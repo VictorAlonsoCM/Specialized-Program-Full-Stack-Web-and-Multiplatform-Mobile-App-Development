@@ -8,3 +8,8 @@ git reset HEAD <file.name> //regresa el head al ultimo commit realizado
 git checkout -- <file.name> //restablece el ultimo commit a su estado original
 git remote add origin <url> // el repositorio local al repositorio enlinea
 git push -u origin master // sube el contenido del repositorio local al master y nos pide que nos login
+
+MarkDown
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](https://...Ocean.png)  |  ![](https://...Dark.png)
