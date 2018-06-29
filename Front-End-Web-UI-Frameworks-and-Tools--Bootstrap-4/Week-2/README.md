@@ -12,8 +12,6 @@ At the end of the week two, We have learned:
 - Images and Media
 - Alerts, Badges, Progress Bars
 
-
-
 # Desktop web page edition
 ![](Desktop-web-version.png)
 # Mobile web page edition
