@@ -19,10 +19,6 @@ At the end of the week two, We have learned:
 # Mobile web page edition
 ![](Mobile-web-version.png)
 
-[comment]: <> (This is a comment, it will not be included)
-[comment]: <> (in  the output file unless you use it in)
-[comment]: <> (a reference style link.)
-
 [comment]: #                    (I mages Side by Side)
 [comment]: #  (           Home            |  Other part of the page)
 [comment]: #  (:-------------------------:|:-------------------------:)
