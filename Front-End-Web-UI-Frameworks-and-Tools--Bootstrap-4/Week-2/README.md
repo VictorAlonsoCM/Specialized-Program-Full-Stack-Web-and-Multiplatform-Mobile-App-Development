@@ -12,9 +12,9 @@ At the end of the week two, We have learned:
 - Images and Media
 - Alerts, Badges, Progress Bars
 
-# Desktop web page edition
+# Desktop web page version
 ![](Desktop-web-version.png)
-# Mobile web page edition
+# Mobile web page version
 ![](Mobile-web-version.png)
 
 ### If you want to see the page working in your computer just do this:
