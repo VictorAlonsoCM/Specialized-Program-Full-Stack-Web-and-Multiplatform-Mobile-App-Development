@@ -2,6 +2,8 @@
 At the end of the week three, We have learned:
 - Design a tabbed navigation
 - Use tab panes to organize the content and navigate the content using tabbed navigation
+- Use the collapse plugin to hide/reveal content
+- Construct the accordion using cards
 
 # Desktop web page version
 ![](Desktop-web-version.png)
