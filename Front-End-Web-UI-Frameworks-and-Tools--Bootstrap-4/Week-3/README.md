@@ -4,6 +4,9 @@ At the end of the week three, We have learned:
 - Use tab panes to organize the content and navigate the content using tabbed navigation
 - Use the collapse plugin to hide/reveal content
 - Construct the accordion using cards
+- Set up a tooltip to be displayed when the user hovers over an area of the page
+- Enable popovers when the user clicks on a link or button
+- Reveal and hide modals when the user clicks on a link or button
 
 # Desktop web page version
 ![](Desktop-web-version.png)
