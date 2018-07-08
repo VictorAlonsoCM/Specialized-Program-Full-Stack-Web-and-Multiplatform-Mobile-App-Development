@@ -131,42 +131,57 @@
                             <h5 class="col-sm-2">Number of Guests</h5>
                             <div class="col-sm-10">
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input btn-primary" type="radio" name="radioGuests" id="radioGuests1" value="1">
+                                    <input class="form-check-input btn-primary" type="radio" name="modalRadioGuests" id="modalRadioGuests1" value="1">
                                     <label class="form-check-label" for="radioGuests"><strong>1</strong></label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input btn-primary" type="radio" name="radioGuests" id="radioGuests2" value="2">
+                                    <input class="form-check-input btn-primary" type="radio" name="modalRadioGuests" id="modalRadioGuests2" value="2">
                                     <label class="form-check-label" for="radioGuests"><strong>2</strong></label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input btn-primary" type="radio" name="radioGuests" id="radioGuest3" value="3">
+                                    <input class="form-check-input btn-primary" type="radio" name="modalRadioGuests" id="modalRadioGuests3" value="3">
                                     <label class="form-check-label" for="radioGuests"><strong>3</strong></label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input btn-primary" type="radio" name="radioGuests" id="radioGuest4" value="4">
+                                    <input class="form-check-input btn-primary" type="radio" name="modalRadioGuests" id="modalRadioGuests4" value="4">
                                     <label class="form-check-label" for="radioGuests"><strong>4</strong></label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input btn-primary" type="radio" name="radioGuests" id="RadioGuest5" value="5">
+                                    <input class="form-check-input btn-primary" type="radio" name="modalRadioGuests" id="modalRadioGuests5" value="5">
                                     <label class="form-check-label" for="radioGuests"><strong>5</strong></label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input class="form-check-input btn-primary" type="radio" name="radioGuests" id="radioGuests6" value="6">
+                                    <input class="form-check-input btn-primary" type="radio" name="modalRadioGuests" id="modalRadioGuests6" value="6">
                                     <label class="form-check-label" for="radioGuests"><strong>6</strong></label>
                                 </div>
                             </div>
                         </div>
+                        
+                        <div class="form-group row">
+                            <h5 class="col-sm-2">Section</h5>
+                            <div class="btn-group btn-group-toggle col-sm-10" data-toggle="buttons">
+                                <label for="smokeSection" class="btn btn-success active">
+                                    <input type="radio" name="smokeSection" class="form-check-input"  value="Non-Smoking">Non-Smoking
+                                </label>
+                            
+                                <label for="smokeSection" class="btn btn-danger">
+                                    <input type="radio" name="smokeSection" class="form-check-input" value="Smoking">Smoking
+                                </label>
+                            </div>
+                        </div>
+
                         <div class="form-group row">
                             <h5 class="col-sm-2">Data and Time</h5>
-                            <div class="col-sm-4">
+                            <div class="col-sm-auto">
                                 <input type="text" class="form-control" name="modalDate" placeholder="Date">
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-auto">
                                 <input type="text" class="form-control" name="modalTime" placeholder="Time">
                             </div>
                         </div>
+                        
                         <div class="form-group row">
-                            <div class="col-sm-auto offset-2">
+                            <div class="offset-sm-2 col-sm-10">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">
                                     Cancel
                                 </button>
@@ -174,7 +189,6 @@
                                     Reserve
                                 </button>
                             </div>
-                            
                         </div>
                     </form>
                 </div>
