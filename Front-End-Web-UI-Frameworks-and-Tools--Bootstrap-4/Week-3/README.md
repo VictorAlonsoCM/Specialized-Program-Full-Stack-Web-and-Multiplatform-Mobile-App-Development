@@ -1,4 +1,4 @@
-# Week Three
+# Week Three:
 At the end of the week three, We have learned:
 - Design a tabbed navigation
 - Use tab panes to organize the content and navigate the content using tabbed navigation
