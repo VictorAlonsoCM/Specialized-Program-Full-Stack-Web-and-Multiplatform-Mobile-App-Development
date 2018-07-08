@@ -98,9 +98,98 @@
                 <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" alt="Logo" class="img-fluid">
                 </div>
+                <!-- This the caller of the modal for the task three in the week three -->
+                <div class="col-12 col-sm align-self-center">
+                    <a role="button" href="#modalForm" class="btn btn-warning btn-block nav-link"
+                        data-toggle="modal" data-target="#modalForm">
+                        <h5 class="text-white">Reserve Table</h5>
+                    </a>
+                </div>
             </div>
         </div>
     </header>
+
+    <!-- This the MODAL for the task one in the week three -->
+    <div class="modal fade" id="modalForm" role="dialog" >
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Reserve a Table</h5>
+                    <button class="close" type="button" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group row">
+                            <h5 class="col-sm-2">Number of Guests</h5>
+                            <div class="col-sm-10">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input btn-primary" type="radio" name="modalRadioGuests" id="modalRadioGuests1" value="1">
+                                    <label class="form-check-label" for="radioGuests"><strong>1</strong></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input btn-primary" type="radio" name="modalRadioGuests" id="modalRadioGuests2" value="2">
+                                    <label class="form-check-label" for="radioGuests"><strong>2</strong></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input btn-primary" type="radio" name="modalRadioGuests" id="modalRadioGuests3" value="3">
+                                    <label class="form-check-label" for="radioGuests"><strong>3</strong></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input btn-primary" type="radio" name="modalRadioGuests" id="modalRadioGuests4" value="4">
+                                    <label class="form-check-label" for="radioGuests"><strong>4</strong></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input btn-primary" type="radio" name="modalRadioGuests" id="modalRadioGuests5" value="5">
+                                    <label class="form-check-label" for="radioGuests"><strong>5</strong></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input btn-primary" type="radio" name="modalRadioGuests" id="modalRadioGuests6" value="6">
+                                    <label class="form-check-label" for="radioGuests"><strong>6</strong></label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- This the btn-group for the task two in the week three -->                        
+                        <div class="form-group row">
+                            <h5 class="col-sm-2">Section</h5>
+                            <div class="btn-group btn-group-toggle col-sm-10" data-toggle="buttons">
+                                <label for="smokeSection" class="btn btn-success active">
+                                    <input type="radio" name="smokeSection" class="form-check-input"  value="Non-Smoking">Non-Smoking
+                                </label>
+                            
+                                <label for="smokeSection" class="btn btn-danger">
+                                    <input type="radio" name="smokeSection" class="form-check-input" value="Smoking">Smoking
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <h5 class="col-sm-2">Data and Time</h5>
+                            <div class="col-sm-auto">
+                                <input type="text" class="form-control" name="modalDate" placeholder="Date">
+                            </div>
+                            <div class="col-sm-auto">
+                                <input type="text" class="form-control" name="modalTime" placeholder="Time">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="offset-sm-2 col-sm-10">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                    Cancel
+                                </button>
+                                <button type="submit" class="btn btn-primary">
+                                    Reserve
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <div class="row">
