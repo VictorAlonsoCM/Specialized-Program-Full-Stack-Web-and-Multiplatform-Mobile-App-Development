@@ -23,3 +23,16 @@ At the end of the week two, We have learned:
 - Usage of Tables and Cards
 - Images and Media
 - Alerts, Badges, Progress Bars
+
+# Week Three
+At the end of the week three, We have learned:
+- Design a tabbed navigation
+- Use tab panes to organize the content and navigate the content using tabbed navigation
+- Use the collapse plugin to hide/reveal content
+- Construct the accordion using cards
+- Set up a tooltip to be displayed when the user hovers over an area of the page
+- Enable popovers when the user clicks on a link or button
+- Reveal and hide modals when the user clicks on a link or button
+- Use a carousel component in your web page
+- Configure various aspects of the carousel
+- Add controls to the carousel to manually control it
