@@ -2,6 +2,8 @@
 At the end of the week four, We have learned:
 - Understand how to use JQuery, JavaScript and Bootstrap's JS components methods to control the behavior of the components.
 - Write JavaScript code taking advantage of the Bootstrap's JS component methods and JQuery methods for controlling Bootstrap JS components.
+- Write Less and Sass code to define your CSS classes.
+- Compile the Less and Sass code into the corresponding CSS classes.
 
 # Desktop web page version
 ![](Desktop-web-version.png)
