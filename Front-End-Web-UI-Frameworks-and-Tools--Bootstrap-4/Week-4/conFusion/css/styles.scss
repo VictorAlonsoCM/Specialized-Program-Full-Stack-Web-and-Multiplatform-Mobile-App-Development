@@ -73,3 +73,15 @@ $carousel-item-height: 300px;
      position: absolute;
      bottom: 0px;
  }
+
+ .modal-header{
+     background-color: $background-dark;
+     .modal-title, .close{
+         color: floralwhite;
+     }
+ }
+
+ .modal-body{
+     margin-top: -1px;
+     background-color: $background-pale;
+ }
