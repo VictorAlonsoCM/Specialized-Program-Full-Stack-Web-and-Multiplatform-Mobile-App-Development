@@ -40,7 +40,7 @@
                     </li>
                 </ul>
                 <span class="navbar-text">
-                    <a href="#loginModal" data-toggle="modal" data-target="#loginModal">
+                    <a href="#loginModal" class="toggleLogin">
                         <span class="fa fa-sign-in"></span> Login
                     </a>
                 </span>
@@ -54,23 +54,23 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Login</h4>
-                    <button type="button" class="close" data-dismiss="modal">
+                    <button type="button" class="close toggleLogin">
                         &times;
                     </button>
                 </div>
                 <div class="modal-body">
                     <form>
                         <div class="form-row">
-                            <div class="form-group col-sm-4">
+                            <div class="form-group col-md-4">
                                 <label for="email" class="sr-only" id="labelEmailModal">Email</label>
-                                <input type="email" id="emailModal" class="form-control form-control-sm" name="emailModal" placeholder="Enter email">
+                                <input type="email" id="emailModal" class="form-control" name="emailModal" placeholder="Enter email">
                             </div>
-                            <div class="form-group col-sm-4">
+                            <div class="form-group col-md-4">
                                 <label for="password" class="sr-only" id="labelPasswordModal">Password</label>
-                                <input type="password" id="passwordModal" class="form-control form-control-sm" name="passwordModal" placeholder="Password">
+                                <input type="password" id="passwordModal" class="form-control" name="passwordModal" placeholder="Password">
                             </div>
-                            <div class="col-sm-auto">
-                                <div class="form-check mt-1">
+                            <div class="col-md-auto">
+                                <div class="form-check mt-md-2">
                                     <input type="checkbox" id="remember" class="form-check-input" value="RememberMe">
                                     <label for="RememberMe" class="form-check-label">
                                         Remember me
@@ -79,8 +79,8 @@
                             </div>
                         </div>
                         <div class="form-row">
-                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sing in</button>
+                            <button type="button" class="btn btn-secondary btn-md ml-auto toggleLogin">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-md ml-1">Sing in</button>
                         </div>
                     </form>
                 </div>
@@ -100,8 +100,7 @@
                 </div>
                 <!-- This the caller of the modal for the task three in the week three -->
                 <div class="col-12 col-sm align-self-center">
-                    <a role="button" href="#modalForm" class="btn btn-warning btn-block nav-link"
-                        data-toggle="modal" data-target="#modalForm">
+                    <a role="button" href="#modalForm" class="btn btn-warning btn-block nav-link toggleForm">
                         <h5 class="text-white">Reserve Table</h5>
                     </a>
                 </div>
@@ -115,15 +114,15 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Reserve a Table</h5>
-                    <button class="close" type="button" data-dismiss="modal">
+                    <button class="close toggleForm" type="button">
                         &times;
                     </button>
                 </div>
                 <div class="modal-body">
                     <form>
                         <div class="form-group row">
-                            <h5 class="col-sm-2">Number of Guests</h5>
-                            <div class="col-sm-10">
+                            <h5 class="col-12 col-md-2">Number of Guests</h5>
+                            <div class="col-12 col-md-10">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input btn-primary" type="radio" name="modalRadioGuests" id="modalRadioGuests1" value="1">
                                     <label class="form-check-label" for="radioGuests"><strong>1</strong></label>
@@ -151,10 +150,10 @@
                             </div>
                         </div>
                         
-                        <!-- This the btn-group for the task two in the week three -->                        
+                        <!-- This the btn-group for the task two in the week three -->
                         <div class="form-group row">
-                            <h5 class="col-sm-2">Section</h5>
-                            <div class="btn-group btn-group-toggle col-sm-10" data-toggle="buttons">
+                            <h5 class="col-12 col-md-2">Section</h5>
+                            <div class="btn-group btn-group-toggle col-12 col-md-10" data-toggle="buttons">
                                 <label for="smokeSection" class="btn btn-success active">
                                     <input type="radio" name="smokeSection" class="form-check-input"  value="Non-Smoking">Non-Smoking
                                 </label>
@@ -166,18 +165,18 @@
                         </div>
 
                         <div class="form-group row">
-                            <h5 class="col-sm-2">Data and Time</h5>
-                            <div class="col-sm-auto">
+                            <h5 class="col-12 col-md-2">Data and Time</h5>
+                            <div class="col-12 col-md-auto">
                                 <input type="text" class="form-control" name="modalDate" placeholder="Date">
                             </div>
-                            <div class="col-sm-auto">
+                            <div class="col-12 col-md-auto">
                                 <input type="text" class="form-control" name="modalTime" placeholder="Time">
                             </div>
                         </div>
 
                         <div class="form-group row">
-                            <div class="offset-sm-2 col-sm-10">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                            <div class="col-12 offset-md-2 col-md-10">
+                                <button type="button" class="btn btn-secondary toggleForm">
                                     Cancel
                                 </button>
                                 <button type="submit" class="btn btn-primary">
@@ -446,6 +445,22 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!--This is the script only for the Assignment 4-->
+    <script>
+        $(document).ready(function(){
+            //show and hide the login Modal
+            $('.toggleLogin').click(function(){
+                $('#loginModal').modal('toggle');
+            });
+
+            //show and hide the form Modal
+            $('.toggleForm').click(function(){
+                $('#modalForm').modal('toggle');
+            });
+        });
+    </script>
+
 </body>
 
 </html>
