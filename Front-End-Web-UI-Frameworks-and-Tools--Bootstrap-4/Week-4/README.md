@@ -4,6 +4,8 @@ At the end of the week four, We have learned:
 - Write JavaScript code taking advantage of the Bootstrap's JS component methods and JQuery methods for controlling Bootstrap JS components.
 - Write Less and Sass code to define your CSS classes.
 - Compile the Less and Sass code into the corresponding CSS classes.
+- Configure NPM scripts and automate your web development.
+- Prepare your project for being hosted on a web server.
 
 # Desktop web page version
 ![](Desktop-web-version.png)
