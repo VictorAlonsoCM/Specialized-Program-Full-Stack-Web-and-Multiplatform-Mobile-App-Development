@@ -6,6 +6,11 @@ At the end of the week four, We have learned:
 - Compile the Less and Sass code into the corresponding CSS classes.
 - Configure NPM scripts and automate your web development.
 - Prepare your project for being hosted on a web server.
+- Usage of Parallelshell for run multiples commands.
+- Usage of imagemin-cli.
+- Compressing and minify images.
+- How to use usemin-cli, cssmin, uglify-js, htmlmin.
+- Creation of a Distribution folder with our project ready for deployment
 
 # Desktop web page version
 ![](Desktop-web-version.png)
