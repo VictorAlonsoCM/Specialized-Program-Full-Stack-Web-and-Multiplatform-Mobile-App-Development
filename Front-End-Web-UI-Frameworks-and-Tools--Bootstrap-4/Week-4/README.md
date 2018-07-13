@@ -11,6 +11,8 @@ At the end of the week four, We have learned:
 - Compressing and minify images.
 - How to use usemin-cli, cssmin, uglify-js, htmlmin.
 - Creation of a Distribution folder with our project ready for deployment
+- Configure Grunt tasks and automate your web development using Grunt
+- Define Gulp tasks in code to automate the web development using Gulp
 
 # Desktop web page version
 ![](Desktop-web-version.png)
@@ -23,3 +25,26 @@ At the end of the week four, We have learned:
 - Type the following commands
 - npm install
 - npm start
+
+## Extra information
+### Some NPM Modules that were installed globally and locally with their instructions:
+
+**LESS Compiler**
+- npm install -g less
+    -  lessc styles.less styles.css
+
+**SASS Compiler**
+- npm install --save-dev node-sass
+    - node-sass -o css/ css/
+
+**Onchange && parallelshel@3.0.1**
+- npm install --save-dev onchange parallelshell@3.0.1
+    - onchange 'css/*.scss' -- npm run scss
+    - parallelshell 'npm run watch:scss' 'npm run lite'
+
+
+**Dist: for upload and deploy the project**
+- npm install --save-dev rimraf
+- npm install -g copyfiles
+- npm install -g imagemin-cli
+- npm install --save-dev usemin-cli cssmin uglify-js htmlmin
