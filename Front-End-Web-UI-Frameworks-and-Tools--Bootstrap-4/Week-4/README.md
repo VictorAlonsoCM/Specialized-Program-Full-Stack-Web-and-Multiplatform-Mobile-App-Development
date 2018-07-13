@@ -10,9 +10,9 @@ At the end of the week four, We have learned:
 - Usage of imagemin-cli.
 - Compressing and minify images.
 - How to use usemin-cli, cssmin, uglify-js, htmlmin.
-- Creation of a Distribution folder with our project ready for deployment
-- Configure Grunt tasks and automate your web development using Grunt
-- Define Gulp tasks in code to automate the web development using Gulp
+- Creation of a Distribution folder with our project ready for deployment.
+- Configure Grunt tasks and automate your web development using Grunt.
+- Define Gulp tasks in code to automate the web development using Gulp.
 
 # Desktop web page version
 ![](Desktop-web-version.png)
@@ -42,9 +42,19 @@ At the end of the week four, We have learned:
 >     - onchange 'css/*.scss' -- npm run scss
 >     - parallelshell 'npm run watch:scss' 'npm run lite'
 > 
-> 
 > **Dist: for upload and deploy the project**
 > - npm install --save-dev rimraf
 > - npm install -g copyfiles
 > - npm install -g imagemin-cli
 > - npm install --save-dev usemin-cli cssmin uglify-js htmlmin
+>
+> **Task runner Grunt**
+> - npm install -g grunt-cli
+> - npm install --save-dev grunt
+> - npm install --save-dev grunt-sass
+> - npm install --save-dev time-grunt
+> - npm install --save-dev jit-grunt
+> - npm install --save-dev grunt-contrib-watch
+> - npm install --save-dev grunt-browser-sync
+> ### Finally type this following instruction and everything should be working. 
+> - grunt
