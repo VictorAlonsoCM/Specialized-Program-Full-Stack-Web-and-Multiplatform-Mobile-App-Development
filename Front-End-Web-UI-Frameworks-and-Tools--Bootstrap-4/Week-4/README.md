@@ -26,8 +26,18 @@ At the end of the week four, We have learned:
 - npm install
 - npm start
 
-## Extra information
-> ### Some NPM Modules that were installed globally and locally with their instructions:
+## Extra information NPM Script
+### NPM Modules that were installed globally and locally:
+> - [onchange](https://github.com/Qard/onchange)
+> - [parallelshell](https://github.com/keithamus/parallelshell)
+> - [rimraf](https://github.com/isaacs/rimraf)
+> - [copyfiles](https://github.com/calvinmetcalf/copyfiles)
+> - [imagemin-cli](https://github.com/imagemin/imagemin-cli)
+> - [usemin-cli](https://github.com/nelsyeung/usemin-cli)
+> - [cssmin](https://github.com/jbleuzen/node-cssmin)
+> - [uglify-js](https://github.com/mishoo/UglifyJS2)
+> - [htmlmin](https://github.com/jserme/htmlmin)
+### Modules' instructions:
 > 
 > **LESS Compiler**
 > - npm install -g less
@@ -47,8 +57,23 @@ At the end of the week four, We have learned:
 > - npm install -g copyfiles
 > - npm install -g imagemin-cli
 > - npm install --save-dev usemin-cli cssmin uglify-js htmlmin
->
-> **Task runner Grunt**
+
+## Extra information Grunt
+
+### Grunt Plugins:
+
+> - [grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint)
+> - [jshint-stylish](https://github.com/sindresorhus/jshint-stylish)
+> - [grunt-contrib-copy](https://github.com/gruntjs/grunt-contrib-copy)
+> - [grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean)
+> - [grunt-usemin](https://github.com/yeoman/grunt-usemin)
+> - [grunt-contrib-concat](https://github.com/gruntjs/grunt-contrib-concat)
+> - [grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin)
+> - [grunt-contrib-htmlmin](https://github.com/gruntjs/grunt-contrib-htmlmin)
+> - [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify)
+> - [grunt-filerev](https://github.com/yeoman/grunt-filerev)
+
+### Grunt Plugins' installation instructions:
 > - npm install -g grunt-cli
 > - npm install --save-dev grunt
 > - npm install --save-dev grunt-sass
@@ -65,5 +90,28 @@ At the end of the week four, We have learned:
 > - npm install --save-dev grunt-contrib-uglify
 > - npm install --save-dev grunt-filerev
 > - npm install --save-dev grunt-usemin
-> ### Finally type this following instruction and everything should be working. 
+
+### Finally type this following instruction and everything should be working. 
 > - grunt
+
+
+## Extra information Gulp
+
+### Gulp Plugins:
+
+> - [gulp](https://github.com/gulpjs/gulp)
+> - [gulp-sass](https://github.com/dlmanning/gulp-sass)
+> - [browser-sync](https://github.com/BrowserSync/browser-sync)
+> - [del](https://github.com/sindresorhus/del)
+> - [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin)
+> - [gulp-uglify](https://github.com/terinjokes/gulp-uglify)
+> - [gulp-usemin](https://github.com/zont/gulp-usemin)
+> - [gulp-rev](https://github.com/sindresorhus/gulp-rev)
+> - [gulp-clean-css](https://github.com/scniro/gulp-clean-css)
+> - [gulp-flatmap](https://github.com/mariusGundersen/gulp-flatMap)
+> - [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin)
+
+## Tasks done by NPM Scripts, Grunt and Gulp
+> - [Minification](https://en.wikipedia.org/wiki/Minification_(programming))
+> - [UglifyJS](http://lisperator.net/uglifyjs/)
+> - [JSHint](http://jshint.com/)
