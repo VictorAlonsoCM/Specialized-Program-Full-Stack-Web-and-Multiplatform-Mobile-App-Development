@@ -56,5 +56,14 @@ At the end of the week four, We have learned:
 > - npm install --save-dev jit-grunt
 > - npm install --save-dev grunt-contrib-watch
 > - npm install --save-dev grunt-browser-sync
+> - npm install --save-dev grunt-contrib-copy
+> - npm install --save-dev grunt-contrib-clean
+> - npm install --save-dev grunt-contrib-imagemin
+> - npm install --save-dev grunt-contrib-concat
+> - npm install --save-dev grunt-contrib-cssmin
+> - npm install --save-dev grunt-contrib-htmlmin
+> - npm install --save-dev grunt-contrib-uglify
+> - npm install --save-dev grunt-filerev
+> - npm install --save-dev grunt-usemin
 > ### Finally type this following instruction and everything should be working. 
 > - grunt
