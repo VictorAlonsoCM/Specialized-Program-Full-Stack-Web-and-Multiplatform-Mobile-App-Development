@@ -111,6 +111,16 @@ At the end of the week four, We have learned:
 > - [gulp-flatmap](https://github.com/mariusGundersen/gulp-flatMap)
 > - [gulp-htmlmin](https://github.com/jonschlinkert/gulp-htmlmin)
 
+### Grunt Plugins' installation instructions:
+> - npm install --save-dev del
+> - npm install --save-dev gulp-imagemin
+> - npm install --save-dev gulp-uglify
+> - npm install --save-dev gulp-usemin
+> - npm install --save-dev gulp-rev
+> - npm install --save-dev gulp-clean-css
+> - npm install --save-dev gulp-flatmap
+> - npm install --save-dev gulp-htmlmin
+
 ## Tasks done by NPM Scripts, Grunt and Gulp
 > - [Minification](https://en.wikipedia.org/wiki/Minification_(programming))
 > - [UglifyJS](http://lisperator.net/uglifyjs/)
