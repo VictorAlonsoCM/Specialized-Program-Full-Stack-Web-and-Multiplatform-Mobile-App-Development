@@ -36,3 +36,19 @@ At the end of the week three, We have learned:
 - Use a carousel component in your web page
 - Configure various aspects of the carousel
 - Add controls to the carousel to manually control it
+
+# Week Four:
+At the end of the week four, We have learned:
+- Understand how to use JQuery, JavaScript and Bootstrap's JS components methods to control the behavior of the components.
+- Write JavaScript code taking advantage of the Bootstrap's JS component methods and JQuery methods for controlling Bootstrap JS components.
+- Write Less and Sass code to define your CSS classes.
+- Compile the Less and Sass code into the corresponding CSS classes.
+- Configure NPM scripts and automate your web development.
+- Prepare your project for being hosted on a web server.
+- Usage of Parallelshell for run multiples commands.
+- Usage of imagemin-cli.
+- Compressing and minify images.
+- How to use usemin-cli, cssmin, uglify-js, htmlmin.
+- Creation of a Distribution folder with our project ready for deployment.
+- Configure Grunt tasks and automate your web development using Grunt.
+- Define Gulp tasks in code to automate the web development using Gulp.

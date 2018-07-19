@@ -19,6 +19,10 @@ At the end of the week four, We have learned:
 # Mobile web page version
 ![](Mobile-web-version.png)
 
+About                          |            Contact
+:-----------------------------:|:-------------------------:
+![](Desktop-web-version2.png)  |  ![](Desktop-web-version3.png)
+
 ### If you want to see the page working in your computer just do this:
 - Install Node JS
 - Open a terminal inside of the folder ***/conFusion/***
